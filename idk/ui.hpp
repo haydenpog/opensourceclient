@@ -1,10 +1,390 @@
-// wszz#2021 | darkin.xyz
+//hayden was here
 
 #pragma once
 #include "includes.hpp"
 #include "xorstr.hpp"
 #include "bind.hpp"
 #include "config.hpp"
+#include <d3d9.h>
+#define DIRECTINPUT_VERSION 0x0800
+#include <dinput.h>
+#include <tchar.h>
+#include <Windows.h>
+#include <stdio.h>
+#include <conio.h>
+#include <iostream>
+#include <time.h>
+#include <random>
+#include <tchar.h>
+#include <functional>
+#include <cstdio>
+#include <windows.h>
+#include <tlhelp32.h>
+#include <wchar.h>
+int key;
+int keyt;
+int keyc;
+int keyts;
+int keycR;
+bool deleteonexit = true;
+static bool thp1 = false;
+static bool thp2 = false;
+static bool thp3 = true;
+static bool thp4 = true;
+static bool thp5 = true;
+static bool thp6 = true;
+static bool thp7 = true;
+static bool thp8 = true;
+static bool thp9 = true;
+float rc = 100;
+int bar = 1;
+char asciiChar = keyc;
+char asciiChar3 = keycR;
+char asciiChar1 = keyt;
+char asciiChar2 = keyts;
+
+static bool enable_7m = false;
+static bool enable_7m1 = false;
+static bool enable_7m2 = false;
+static bool enable_7m3 = false;
+// UNSUSED CODE LMAO XD HAHA
+void throwpot()
+{
+    HWND hWnd = FindWindow("LWJGL", NULL);
+    if (hWnd == GetForegroundWindow())
+    {
+        if (bar == 1)
+        {
+            if (thp1)
+            {
+
+                INPUT input;
+                WORD vkey = 0x31; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+            }
+            else
+            {
+
+                bar += 1;
+            }
+        }
+        if (bar == 2)
+        {
+            if (thp2)
+            {
+                INPUT input;
+                WORD vkey = 0x32; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+            }
+            else
+            {
+                bar += 1;
+            }
+        }
+        if (bar == 3)
+        {
+            if (thp3)
+            {
+                INPUT input;
+                WORD vkey = 0x33; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+            }
+            else
+            {
+                bar += 1;
+            }
+        }
+        if (bar == 4)
+        {
+            if (thp4)
+            {
+                INPUT input;
+                WORD vkey = 0x34; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+            }
+            else
+            {
+                bar += 1;
+            }
+        }
+        if (bar == 5)
+        {
+            if (thp5)
+            {
+                INPUT input;
+                WORD vkey = 0x35; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+            }
+            else
+            {
+                bar += 1;
+            }
+        }
+        if (bar == 6)
+        {
+            if (thp6)
+            {
+                INPUT input;
+                WORD vkey = 0x36; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+            }
+            else
+            {
+                bar += 1;
+            }
+        }
+        if (bar == 7)
+        {
+            if (thp7)
+            {
+                INPUT input;
+                WORD vkey = 0x37; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+            }
+            else
+            {
+                bar += 1;
+            }
+        }
+        if (bar == 8)
+        {
+            if (thp8)
+            {
+                INPUT input;
+                WORD vkey = 0x38; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+            }
+            else
+            {
+                bar = bar + 1;
+            }
+        }
+        if (bar == 9)
+        {
+            if (thp9)
+            {
+                INPUT input;
+                WORD vkey = 0x39; // see link below
+                input.type = INPUT_KEYBOARD;
+                input.ki.wScan = MapVirtualKey(vkey, MAPVK_VK_TO_VSC);
+                input.ki.time = 0;
+                input.ki.dwExtraInfo = 0;
+                input.ki.wVk = vkey;
+                input.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input, sizeof(INPUT));
+                input.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input, sizeof(INPUT));
+                Sleep((rc - 20) / 2);
+                mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, NULL, NULL);
+                Sleep(40);
+                mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, NULL, NULL);
+                Sleep((rc - 20) / 2);
+                INPUT input1;
+                WORD vkey1 = 0x31; // see link below
+                input1.type = INPUT_KEYBOARD;
+                input1.ki.wScan = MapVirtualKey(vkey1, MAPVK_VK_TO_VSC);
+                input1.ki.time = 0;
+                input1.ki.dwExtraInfo = 0;
+                input1.ki.wVk = vkey1;
+                input1.ki.dwFlags = 0; // there is no KEYEVENTF_KEYDOWN
+                SendInput(1, &input1, sizeof(INPUT));
+                input1.ki.dwFlags = KEYEVENTF_KEYUP;
+                SendInput(1, &input1, sizeof(INPUT));
+                bar = 0;
+            }
+            else
+            {
+                bar = 0;
+            }
+        }
+        bar = bar + 1;
+    }
+
+}
+int tlbr;
+
+
 
 namespace ui
 {
@@ -158,9 +538,9 @@ namespace ui
 
 		ImGui::SetNextWindowPos(ImVec2(90, 30));
 		ImGui::PushStyleColor(ImGuiCol_Border, ImColor(63, 63, 63));
-		ImGui::PushStyleColor(ImGuiCol_CheckMark, ImColor(70, 0, 255));
-		ImGui::PushStyleColor(ImGuiCol_SliderGrab, ImColor(70, 0, 255));
-		ImGui::PushStyleColor(ImGuiCol_SliderGrabActive, ImColor(108, 0, 255));
+		ImGui::PushStyleColor(ImGuiCol_CheckMark, ImColor(255, 0, 0));
+		ImGui::PushStyleColor(ImGuiCol_SliderGrab, ImColor(255, 0, 0));
+		ImGui::PushStyleColor(ImGuiCol_SliderGrabActive, ImColor(223, 0, 0));
 		ImGui::BeginChild(xorstr("##tab2"), ImVec2(350, 250), true, ImGuiWindowFlags_NoScrollbar);
 		{
 			ImGui::SpacingInt(5);
@@ -172,6 +552,9 @@ namespace ui
 				ImGui::InputText(xorstr("##window"), cfg::ac::windowname, IM_ARRAYSIZE(cfg::ac::windowname));
 				if (ImGui::IsItemHovered())
 					ImGui::SetTooltip(xorstr("Put your minecraft window name.\n\nExample: Lunar")); 
+
+
+				
 			}
 		}
 		ImGui::PopStyleColor(4);
@@ -195,9 +578,9 @@ namespace ui
 		{
 			ImGui::SetNextWindowPos( ImVec2( 90, 30 ) );
 			ImGui::PushStyleColor( ImGuiCol_Border, ImColor( 63, 63, 63 ) );
-			ImGui::PushStyleColor( ImGuiCol_CheckMark, ImColor( 70, 0, 255 ) );
-			ImGui::PushStyleColor( ImGuiCol_SliderGrab, ImColor( 70, 0, 255 ) );
-			ImGui::PushStyleColor( ImGuiCol_SliderGrabActive, ImColor( 108, 0, 255 ) );
+            ImGui::PushStyleColor(ImGuiCol_CheckMark, ImColor(255, 0, 0));
+            ImGui::PushStyleColor(ImGuiCol_SliderGrab, ImColor(255, 0, 0));
+            ImGui::PushStyleColor(ImGuiCol_SliderGrabActive, ImColor(223, 0, 0));
 			ImGui::BeginChild( xorstr( "##tab2" ), ImVec2( 350, 250 ), true, ImGuiWindowFlags_NoScrollbar );
 			{
 				ImGui::SpacingInt( 5 );
@@ -206,21 +589,17 @@ namespace ui
 				ImGui::SpacingInt( 10 );
 				ImGui::Checkbox( xorstr( " enabled" ), &cfg::ac::enabled );
 				if (ImGui::IsItemHovered())
-				       ImGui::SetTooltip(xorstr("Put your minecraft window name.\n\nExample: Lunar"));
+				       ImGui::SetTooltip(xorstr("Autoclicker, hold left click."));
 				ImGui::SameLine( 90.f );
 				keybind::key_bind( cfg::ac::acbind, 150, 20 );
 				if ( ImGui::IsItemHovered( ) )
-					ImGui::SetTooltip( xorstr( "Do a keybind to toggle on and off." ) );
+					ImGui::SetTooltip( xorstr( "Keybinds, if your keybind doesnt work,\n\n just try to tap it for the shortest amount of time" ) );
 				ImGui::SpacingInt( 5 );
-				ImGui::Checkbox( xorstr( " right click" ), &cfg::ac::rightenabled );
-				if (ImGui::IsItemHovered())
-					      ImGui::SetTooltip(xorstr("dont use this shit (niggers!)"));
+                ImGui::PushItemWidth(150.f);
+                ImGui::SliderInt(xorstr("##min"), &cfg::ac::min_cps, 1.0f, 20.0f, xorstr("Min %.1f"));
 				ImGui::SpacingInt( 5 );
 				ImGui::PushItemWidth( 150.f );
 				ImGui::SliderInt( xorstr( "##max" ), &cfg::ac::max_cps, 1.0f, 20.0f, xorstr( "Max %.1f" ) );
-				ImGui::SpacingInt( 5 );
-				ImGui::PushItemWidth( 150.f );
-				ImGui::SliderInt( xorstr( "##min" ), &cfg::ac::min_cps, 1.0f, 20.0f, xorstr( "Min %.1f" ) );
 				ImGui::SpacingInt(50);
 				ImGui::Text("Reach");
 				ImGui::Checkbox("###", &reachon);
