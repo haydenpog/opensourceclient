@@ -547,7 +547,7 @@ namespace ui
 			ImGui::SameLine(15.f);
 			
 			{
-				ImGui::Checkbox(xorstr(" only minecraft"), &cfg::ac::onlymc);
+				ImGui::Checkbox(xorstr(" Minecraft Only"), &cfg::ac::onlymc);
 				ImGui::SpacingInt(5);
 				ImGui::InputText(xorstr("##window"), cfg::ac::windowname, IM_ARRAYSIZE(cfg::ac::windowname));
 				if (ImGui::IsItemHovered())
@@ -593,7 +593,7 @@ namespace ui
 				ImGui::SameLine( 90.f );
 				keybind::key_bind( cfg::ac::acbind, 150, 20 );
 				if ( ImGui::IsItemHovered( ) )
-					ImGui::SetTooltip( xorstr( "Keybinds, if your keybind doesnt work,\n\n just try to tap it for the shortest amount of time" ) );
+					ImGui::SetTooltip( xorstr( "Keybinds, if your keybind doesnt work,\njust try to tap it for the shortest amount of time" ) );
 				ImGui::SpacingInt( 5 );
                 ImGui::PushItemWidth(150.f);
                 ImGui::SliderInt(xorstr("##min"), &cfg::ac::min_cps, 1.0f, 20.0f, xorstr("Min %.1f"));

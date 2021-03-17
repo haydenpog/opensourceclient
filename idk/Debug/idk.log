@@ -1,14 +1,52 @@
 ﻿  entrypoint.cpp
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(107,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(102,10): warning C4101: 'hex': unreferenced local variable
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(155,21): warning C4100: 'font': unreferenced formal parameter
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(220,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(220,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(223,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(223,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(194,23): warning C4100: 'font': unreferenced formal parameter
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\auto.hpp(92,24): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\Source\entrypoint.cpp(55,10): warning C4189: 'font_big': local variable is initialized but not referenced
-C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(34): warning C4715: 'ui::text::change': not all control paths return a value
-  idk.vcxproj -> C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\Debug\new_ver.exe
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(41,16): warning C4244: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(42,17): warning C4244: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(43,17): warning C4244: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(44,17): warning C4244: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(64,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(72,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(76,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(91,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(99,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(103,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(107,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(128,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(136,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(140,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(144,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(165,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(173,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(177,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(181,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(202,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(210,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(214,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(218,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(239,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(247,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(251,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(255,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(276,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(284,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(288,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(292,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(313,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(321,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(325,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(329,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(350,47): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(358,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(362,33): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(366,48): warning C4244: '=': conversion from 'UINT' to 'WORD', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(487,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(482,10): warning C4101: 'hex': unreferenced local variable
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(535,21): warning C4100: 'font': unreferenced formal parameter
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(599,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(599,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(602,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(602,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(577,23): warning C4100: 'font': unreferenced formal parameter
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\auto.hpp(91,24): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\Source\entrypoint.cpp(55,10): warning C4189: 'font_big': local variable is initialized but not referenced
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\ui.hpp(414): warning C4715: 'ui::text::change': not all control paths return a value
+  idk.vcxproj -> C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\Debug\new_ver.exe

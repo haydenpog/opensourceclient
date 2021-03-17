@@ -1,2 +1,4 @@
 C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\Debug\new_ver.exe
 C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\Debug\new_ver.pdb
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\Debug\new_ver.exe
+C:\Users\Hayden\Documents\GitHub\opensourceclient\idk\Debug\new_ver.pdb

@@ -1,5 +1,4 @@
-// wszz#2021 | darkin.xyz
-
+// hayden
 #pragma once
 #include "includes.hpp"
 
@@ -8,7 +7,7 @@ bool pressedclicker;
 bool mouseDown;
 bool othermouse;
 
-// wszz#2021 | darkin.xyz
+//hayden was here
 
 
 namespace hook
@@ -81,7 +80,7 @@ namespace hook
 	}
 }
 
-// wszz#2021 | darkin.xyz
+//hayden was here
 
 namespace c
 {

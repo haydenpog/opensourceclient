@@ -1,4 +1,4 @@
-// wszz#2021 | darkin.xyz
+//hayden was here
 
 static const unsigned int Icons_compressed_size = 1236;
 static const unsigned int Icons_compressed_data[ 1236 / 4 ] =

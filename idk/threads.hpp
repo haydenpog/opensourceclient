@@ -1,7 +1,7 @@
 #pragma once
 #include "config.hpp"
 #include "includes.hpp"
-// wszz#2021 | darkin.xyz
+//hayden was here
 
 
 namespace thread
