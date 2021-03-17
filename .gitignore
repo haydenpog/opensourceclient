@@ -1,0 +1,7 @@
+
+*.ipch
+*.db-wal
+*.db-shm
+*.db
+.vs/newver/v16/.suo
+.vs/newver/v16/Browse.VC.opendb
