@@ -1,0 +1,116 @@
+﻿  imgui_impl_glfw.cpp
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\backends\imgui_impl_glfw.cpp(44,10): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
+  imgui_impl_opengl2.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui_widgets.cpp(276,14): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  fonts.cpp
+  entrypoint.cpp
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(79,18): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(79,17): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(79,20): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(79,20): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(91,20): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(91,20): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(261,1): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\xorstr.hpp(91): message : see declaration of 'Cs'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(13): message : see reference to function template instantiation 'auto jm::make_xorstr<keybind::get_key_name_by_id::<lambda_9db869b375573f6f86a8002b4229caf2>,0,1,2,3,4,0,1>(Tstr,std::integer_sequence<size_t,0,1,2,3,4>,std::integer_sequence<size_t,0,1>) noexcept' being compiled
+          with
+          [
+              Tstr=keybind::get_key_name_by_id::<lambda_9db869b375573f6f86a8002b4229caf2>
+          ]
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(12,3): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::unordered_map<int,std::string,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,std::string>>>'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(57,3): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(63,28): error C2677: binary '+': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(66,25): error C2677: binary '+': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(74,57): error C2440: 'initializing': cannot convert from 'int *' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(74,57): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(92,37): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int *' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2811,19): message : could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2807,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2792,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2691,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2592,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(92,37): message : while trying to match the argument list '(std::string, int *)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(95,39): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int *' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2811,19): message : could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2807,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2792,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2691,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xstring(2592,19): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(95,39): message : while trying to match the argument list '(std::string, int *)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\bind.hpp(97,38): error C2677: binary '+': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(41,98): error C2665: 'ImGui::BeginChild': none of the 2 overloads could convert all the argument types
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(302,29): message : could be 'bool ImGui::BeginChild(ImGuiID,const ImVec2 &,bool,ImGuiWindowFlags)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(301,29): message : or       'bool ImGui::BeginChild(const char *,const ImVec2 &,bool,ImGuiWindowFlags)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(41,98): message : while trying to match the argument list '(int *, ImVec2, bool, ImGuiWindowFlags_)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(48,31): error C2664: 'void ImGui::Text(const char *,...)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(48,17): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(434,29): message : see declaration of 'ImGui::Text'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(57,31): error C2664: 'void ImGui::Text(const char *,...)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(57,17): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(434,29): message : see declaration of 'ImGui::Text'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(77,98): error C2665: 'ImGui::BeginChild': none of the 2 overloads could convert all the argument types
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(302,29): message : could be 'bool ImGui::BeginChild(ImGuiID,const ImVec2 &,bool,ImGuiWindowFlags)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(301,29): message : or       'bool ImGui::BeginChild(const char *,const ImVec2 &,bool,ImGuiWindowFlags)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(77,98): message : while trying to match the argument list '(int *, ImVec2, bool, ImGuiWindowFlags_)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(81,76): error C2664: 'void ImGui::TextColored(const ImVec4 &,const char *,...)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(81,51): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(436,29): message : see declaration of 'ImGui::TextColored'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(83,62): error C2664: 'bool ImGui::Checkbox(const char *,bool *)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(83,22): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(456,29): message : see declaration of 'ImGui::Checkbox'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(87,72): error C2664: 'void ImGui::SetTooltip(const char *,...)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(87,25): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(610,29): message : see declaration of 'ImGui::SetTooltip'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(89,71): error C2664: 'bool ImGui::Checkbox(const char *,bool *)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(89,22): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(456,29): message : see declaration of 'ImGui::Checkbox'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(92,95): error C2664: 'bool ImGui::SliderInt(const char *,int *,int,int,const char *,ImGuiSliderFlags)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(92,23): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(508,29): message : see declaration of 'ImGui::SliderInt'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(95,95): error C2664: 'bool ImGui::SliderInt(const char *,int *,int,int,const char *,ImGuiSliderFlags)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(95,23): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(508,29): message : see declaration of 'ImGui::SliderInt'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(104,91): error C2665: 'ImGui::BeginChild': none of the 2 overloads could convert all the argument types
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(302,29): message : could be 'bool ImGui::BeginChild(ImGuiID,const ImVec2 &,bool,ImGuiWindowFlags)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(301,29): message : or       'bool ImGui::BeginChild(const char *,const ImVec2 &,bool,ImGuiWindowFlags)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(104,91): message : while trying to match the argument list '(int *, ImVec2, bool, ImGuiWindowFlags_)'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(107,63): error C2664: 'bool ImGui::Checkbox(const char *,bool *)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(107,20): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(456,29): message : see declaration of 'ImGui::Checkbox'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(110,95): error C2664: 'bool ImGui::InputText(const char *,char *,size_t,ImGuiInputTextFlags,ImGuiInputTextCallback,void *)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(110,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(521,29): message : see declaration of 'ImGui::InputText'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(112,82): error C2664: 'void ImGui::SetTooltip(const char *,...)': cannot convert argument 1 from 'int *' to 'const char *'
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(112,23): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ImGui\imgui.h(610,29): message : see declaration of 'ImGui::SetTooltip'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\auto.hpp(92,24): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\Source\entrypoint.cpp(14,10): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory

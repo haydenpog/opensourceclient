@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_opengl2.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_glfw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fonts.cpp">
+      <Filter>Source\cheat\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\entrypoint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{85446fd1-8686-45cb-98fc-0f1ade4b563a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6ef85b7c-941e-4244-a51d-7a9fbf453a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ui">
+      <UniqueIdentifier>{6f770d53-76da-4b26-a76b-5dcd3d2e716a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cheat">
+      <UniqueIdentifier>{5ed78c63-a5d3-47d8-817e-e8bd5fe26cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cheat\Fonts">
+      <UniqueIdentifier>{c95b3182-831d-458c-a48f-f9cfd22e3f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\utils">
+      <UniqueIdentifier>{743724b0-c0bb-49f2-9746-e924a89d3b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ui\cfg">
+      <UniqueIdentifier>{6cfff5e2-4570-4c35-8b9c-d58f6fe7e269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\threads">
+      <UniqueIdentifier>{b27a534f-e125-495e-8051-a9e2b7ffd4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\modules">
+      <UniqueIdentifier>{43f99ffb-2257-4bdc-af57-f6cb4eeb553b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\lib">
+      <UniqueIdentifier>{e2562ac0-5cf1-4174-8ae2-2287c4f72b53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_glfw.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Includes\fonts.h">
+      <Filter>Source\cheat\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Includes\window.hpp">
+      <Filter>Source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hpp">
+      <Filter>Source\ui\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.hpp">
+      <Filter>Source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.hpp">
+      <Filter>Source\cheat\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="threads.hpp">
+      <Filter>Source\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="auto.hpp">
+      <Filter>Source\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="bind.hpp">
+      <Filter>Source\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

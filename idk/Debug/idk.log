@@ -1,0 +1,14 @@
+﻿  entrypoint.cpp
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(107,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(102,10): warning C4101: 'hex': unreferenced local variable
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(155,21): warning C4100: 'font': unreferenced formal parameter
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(220,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(220,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(223,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(223,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(194,23): warning C4100: 'font': unreferenced formal parameter
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\auto.hpp(92,24): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\Source\entrypoint.cpp(55,10): warning C4189: 'font_big': local variable is initialized but not referenced
+C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\ui.hpp(34): warning C4715: 'ui::text::change': not all control paths return a value
+  idk.vcxproj -> C:\Users\Hayden\Downloads\imgui-minecraft-autoclicker-main\imgui-minecraft-autoclicker-main\idk\Debug\new_ver.exe
